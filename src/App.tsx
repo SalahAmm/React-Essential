@@ -1,3 +1,14 @@
+import Goal from "./Components/Goal.tsx"
+
+
 export default function App() {
-  return <h1>Let's get started!</h1>;
+  return (
+    <>
+    <main>
+      <Goal title="Learn React">
+      <p>With basic of react you can build many things</p>
+      </Goal>
+    </main>
+    </>
+  )
 }
